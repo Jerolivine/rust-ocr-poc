@@ -1,0 +1,14 @@
+‘y<html xmlns:
+‘y<head>
+<titlesTest Tika title</title>
+</head>
+‘y <body>
+<p>This is an example of XHTML</p>
+<div/>
+<p>This is a separate line</p>
+</body>
+</htm
+
+rnzschemas-microsoft-com:offic
+
+office” xmlns="http://wn.w3.org/TR/REC-htm140">

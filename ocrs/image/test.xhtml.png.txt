@@ -1,0 +1,1 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">T<head><title>Test Tika title/title></head><body><p>This is an example of XHTML</p><div/><p>This is</body></html>separate linex/o>

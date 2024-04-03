@@ -1,0 +1,6 @@
+S?xml version="1.0" encoding="UTF-8"2>
+<spocosy version="1.0"><subscription-update subscriptioni
+
+"O" last_push="2016-06-03 06:21:34" current_push="2016-06-03 06:2:
+
+"0" del="no" /></subscription-update></spocosy>

@@ -1,0 +1,12 @@
+K?xml versie
+<dataset>
+<object>
+<id>4</id>
+<name>Foo< /name>
+</object>
+<object>
+<id>2</id>
+<name>bar</name>
+</object>
+</dataset>
+

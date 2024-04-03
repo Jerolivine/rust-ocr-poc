@@ -1,0 +1,13 @@
+OCR Benchmarks/tesseract_benchmark
+                        time:   [1.1006 s 1.1083 s 1.1200 s]
+                        change: [+0.6468% +1.4582% +2.6055%] (p = 0.01 < 0.05)
+						
+OCR Benchmarks/ocrs_benchmark
+                        time:   [1.4569 s 1.9680 s 2.4941 s]
+                        change: [+24.982% +64.648% +113.02%] (p = 0.01 < 0.05)
+                        Performance has regressed.
+						
+OCR Benchmarks/win_ocr_benchmark
+                        time:   [112.37 ms 112.93 ms 113.32 ms]
+                        change: [-38.074% -30.731% -19.929%] (p = 0.00 < 0.05)
+                        Performance has improved.

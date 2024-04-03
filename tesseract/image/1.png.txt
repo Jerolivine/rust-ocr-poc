@@ -1,0 +1,58 @@
+%J File Edit Selection View Go Run Terminal Help € DP screen-capture-deneme Oude - o x
+
+| ri) EXPLORER s+ @ mains 2,U X Qao--
+‘\V  SCREEN-CAPTURE-DENEME src > @ mainss > @ tesseract
+Pp vec 4e fn capture_screen() {
+© mains 2u o h TITLE
+%® > target = Op
+sitignore u 50 z
+SE tpg u 62 fn tesseract() { ae
+& = Cargolock u 61
+9 8 Cargotom! 0 62 create_folder(path: “tesseract”)
+64 custom_debug! (“get_image text started”);
+2c 65
+BL 66 let img: Image = Image: :from_path("image/1.png”) -unwrap() ;
+custom_debug!("" rusty tesseract: :image_to_string”);
+let my_args: Args = Args::default();
+// string output
+let image_to_string: Result<String, rusty_tesseract::TessError> =
+rusty_tesseract::image_to_string(image: &img, &my args);
+let output: String = match image_to_string {
+Ok(output: String) => output,
+Err(err: TessError) => {
+eprintIn!("{:?}", err);
+String: :new()
++
+custom_debug!(" rusty tesseract: :image to_string after");
+custom_debug! (2, output);
+‘custom debug! (output..clone());
+custom_debug!(" image/tesseract_output.txt write”);
+let c_output: Re<String> = Rc: :new(output) ;
+@ =match fs::write(path: “tesseract/tesseract_output.txt", contents: &c_output) {
+Ok(_) => printIn!("Data written to file successfully.”)
+Err(e: Error) => printIn!(“Failed to write to file: {}
++
+custom_debug! (&%c_output) ;
+/1 // image_to_data creates a DataOutput containing the parsed output from Tesseract when using the “TSV" Parameter
+// let data_output = rusty_tesseract::image to data(&img, &my_args).unurap();
+// let first_text_line = &data_output.data[4];
+PROBLEMS @ OUTPUT DEBUG CONSOLE TERMINAL PORTS BjJow +y O  - ~ x
+y
+error: process didn’t exit successfully: ~target\debug\screen-capture-deneme.exe” (exit code: @xc00@@13a, STATUS_CONTROL_C EXIT)
+PS C:\Users\Arda Sentunala\Desktop\github\Rust Calisma\Screen capture\screen-capture-deneme> *C
+PS C:\Users\Arda Sentunala\Desktop\github\Rust Calisma\Screen capture\screen-capture-deneme> cargo run
+Compiling screen-capture-deneme v@.1.@ (C:\Users\Arda Sentunala\Desktop\github\Rust Calisma\Screen capture\screen-capture-deneme)
+warning: unused imports: ~collections::Hashtap’, “time: :Instant™
+--> src\main.rs:3:11
+i
+3 | use std::{collections: :Hashtap, fs, io, rc::Rc, time: :Instant};
+I
+I
+= note: ~#[warn(unused_imports)]” on by default
+> OUTUNE : “screen-capture-deneme” (bin “screen-capture-deneme") generated 1 warning (run ~cargo fix --bin “screen-capture-deneme"> to apply 1 suggestion)
+
+Finished dev [unoptimized + debuginfo] target(s) in 0.705
+$b > TES Running ~target\debug\screen-capture-deneme.exe”
+> RUST DEPENDENCIES
+B master @ @OA2 WO rustanalyzer Ln93,Col42 Spaces: UTF-8 LF Rust VContinue QO.
+

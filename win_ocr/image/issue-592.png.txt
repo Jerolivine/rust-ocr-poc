@@ -1,0 +1,1 @@
+?xml version= <dataset> <object> <name>foo</name> </object> <object> <id>2</id> <name>bar</name> </object> </dataset>
